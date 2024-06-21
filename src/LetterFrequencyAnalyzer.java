@@ -65,6 +65,8 @@ public class LetterFrequencyAnalyzer extends Application {
                 series.getData().add(new XYChart.Data<>(label, letterCount.get(c)));
             }
 
+
+            
             // 清空柱状图并添加新数据
             barChart.getData().clear();
             barChart.getData().add(series);
