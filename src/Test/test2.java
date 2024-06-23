@@ -23,15 +23,7 @@ public class test2 extends Application {
         Scene scene =new Scene(fan,800,600);
         primaryStage.setScene(scene);
         primaryStage.setAlwaysOnTop(true);
-        primaryStage.show();
-
-        Thread.sleep(5000);
-
-        Fan2 fan2 = new Fan2(Color.BLACK,radius);
-
-        scene =new Scene(fan2,800,600);
-        primaryStage.setScene(scene);
-        primaryStage.setAlwaysOnTop(true);
+        primaryStage.setTitle("顾砚文牌牛逼风扇");
         primaryStage.show();
 
     }

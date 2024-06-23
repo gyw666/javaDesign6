@@ -114,6 +114,6 @@ public class Fan2 extends Pane{
     }
 
     public static int getRandomRadius(){
-        return 100*(1+new Random().nextInt(5));
+        return 50*(1+new Random().nextInt(4));
     }
 }

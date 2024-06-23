@@ -66,7 +66,7 @@ public class LetterFrequencyAnalyzer extends Application {
             }
 
 
-            
+
             // 清空柱状图并添加新数据
             barChart.getData().clear();
             barChart.getData().add(series);
